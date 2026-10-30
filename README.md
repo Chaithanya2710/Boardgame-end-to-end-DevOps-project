@@ -1,4 +1,4 @@
-\# Boardgame-end-to-end-DevOps-project
+\# Boardgame End-to-End DevOps Project
 
 
 
@@ -60,6 +60,8 @@ The application source code is available here:
 
 \- Blackbox Exporter
 
+\- Ansible
+
 
 
 \## CI/CD Pipeline
@@ -106,11 +108,11 @@ The Terraform configuration files are available in the `Terraform/` directory.
 
 
 
-The application is deployed to Amazon EKS using a Kubernetes Deployment and Service configuration.
+The application is deployed to Amazon EKS using Kubernetes Deployment and Service configurations.
 
 
 
-The Jenkins pipeline applies the Kubernetes manifest and verifies that the deployment resources are created.
+The Jenkins pipeline applies the Kubernetes manifest and verifies that the deployment and Service resources are created.
 
 
 
@@ -149,6 +151,8 @@ The monitoring setup includes:
 \- Deploying applications on Kubernetes using Amazon EKS.
 
 \- Monitoring application availability using Prometheus, Grafana, and Blackbox Exporter.
+
+
 
 
 
