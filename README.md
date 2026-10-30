@@ -76,6 +76,3 @@ The monitoring setup includes:
 - Deploying applications on Kubernetes using Amazon EKS.
 - Monitoring application availability using Prometheus, Grafana, and Blackbox Exporter.
 
-## Author
-
-Chaithanya Shringar
